@@ -1,0 +1,30 @@
+  112  ssh bandit2@bandit.labs.overthewire.org -p 2220
+  113  ssh bandit3@bandit.labs.overthewire.org -p 2220
+  114  bandit4@bandit.labs.overthewire.org -p 2220
+  115  ssh bandit4@bandit.labs.overthewire.org -p 2220
+  116  ssh bandit5@bandit.labs.overthewire.org -p 2220
+  117  bandit6@bandit.labs.overthewire.org -p 2220
+  118  ssh bandit6@bandit.labs.overthewire.org -p 2220
+  119  ssh bandit6@bandit.labs.overthewire.org -p 2220
+  120  ssh bandit7@bandit.labs.overthewire.org -p 2220
+  121  ssh bandit7@bandit.labs.overthewire.org -p 2220
+  122  ssh bandit7@bandit.labs.overthewire.org
+  123  ssh bandit7@bandit.labs.overthewire.org -p 2220
+  124  ssh bandit8@bandit.labs.overthewire.org -p 2220
+  125  ssh bandit9@bandit.labs.overthewire.org -p 2220
+  126  ssh bandit10@bandit.labs.overthewire.org -p 2220
+  127  ssh bandit11@bandit.labs.overthewire.org -p 2220
+  128  uname -sr && whoami
+  129  sudo apt update
+  130  sudo apt install build-essential
+  131  which g++ > compiler_trace.log && g++ --version | head -n 1 >> compiler_trace.log
+  132  cd ~
+  133  mkdir recovery_ops
+  134  cd recovery_ops
+  135  curl -o system_raw.txt https://raw.githubusercontent.com/aryadiiptaa/YESS/refs/heads/main/system_raw.txt
+  136  ls
+  137  head -n 1260 system_raw.txt | tail -n 11
+  138  head -n 1260 system_raw.txt | tail -n 11 > recovered_sector.txt
+  139  rm system_raw.txt
+  140  code .
+  141  history | tail -n 30 > history_audit.txt
